@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+psycopg2-binary = "*"
+django-allauth = "*"
+django-crispy-forms = "*"
+django-htmx = "*"
+djangorestframework = "*"
+markdown = "*"
+django-filter = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
